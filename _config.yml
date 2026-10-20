@@ -1,0 +1,14 @@
+title: CentsibleMaker
+description: Honest 3D printing reviews, silk filament tips, and print-in-place designs from a real Kobra S1 owner.
+url: "https://duncanconcessions-lgtm.github.io"
+baseurl: "/centsible-maker"
+author: Duncan
+theme: minima
+plugins: [jekyll-seo-tag, jekyll-sitemap, jekyll-feed]
+etsy_url: "https://www.etsy.com/shop/CentsibleSheetz"
+header_pages: [about.md, disclosure.md, privacy.md]
+defaults:
+  - scope: {path: ""}
+    values: {image: /assets/og-default.png}
+  - scope: {path: "", type: posts}
+    values: {layout: post}

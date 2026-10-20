@@ -5,7 +5,7 @@ baseurl: "/centsible-maker"
 author: Duncan
 theme: minima
 plugins: [jekyll-seo-tag, jekyll-sitemap, jekyll-feed]
-etsy_url: "https://www.etsy.com/shop/CentsibleSheetz"
+etsy_url: "https://centsiblesheetz.etsy.com"
 header_pages: [about.md, disclosure.md, privacy.md]
 defaults:
   - scope: {path: ""}
